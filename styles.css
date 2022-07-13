@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{ margin: 0;
+    padding:0; 
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(3, 3, 21);
+     
+}
+h1{
+   margin-top:81px;
+    color: rgb(68, 211, 208);;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 0px 2px 2px black;
+    margin-left:41%;
+    /* margin-top:2px;} */
+}
+#contenar{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    color: azure;
+    justify-content:center;
+    align-items: center;
+}
+#sub{
+      background-color: rgb(76, 231, 245);
+      height: 120px;
+      width: 340px;
+      border: 3px solid rgb(8, 249, 229);
+      border-radius: 5px;
+       box-shadow:0px 0px 10px 10px  rgb(8, 249, 229) ; 
+}
+#Time{
+    text-align: center;
+     color: rgb(7, 52, 63);
+    font-size: 55px;
+ 
+    
+}
+#ddd{
+    margin-left: 30px;
+    color:rgba(57, 30, 88, 0.761);
+  
+    /* box-shadow:0px 0px 10px 10px  rgb(16, 245, 226) ;  */
+}
