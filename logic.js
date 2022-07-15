@@ -5,7 +5,7 @@ function RunClock() {
  let Second = date.getSeconds();
  let today = date.getDate();
  let session = "AM"
- var hours;
+ var hours = date.getHours();
  if (hous >12) {
     hours = hous -12
  }
